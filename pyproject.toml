@@ -1,0 +1,12 @@
+[project]
+name = "yt-mp3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.11"
+dependencies = [
+    "ffmpeg-python>=0.2.0",
+    "pygame>=2.6.1",
+    "spotipy>=2.25.1",
+    "yt-dlp>=2025.3.31",
+]

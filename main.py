@@ -5,8 +5,9 @@ import threading
 import time
 from pathlib import Path
 
+
 # Set download directory
-DOWNLOAD_DIR = "/Users/raibann/Documents/projects/github/yt-mp3/mp3/keo_sarath"
+DOWNLOAD_DIR = "./mp3"
 Path(DOWNLOAD_DIR).mkdir(parents=True, exist_ok=True)
 
 # Global variables for music control
